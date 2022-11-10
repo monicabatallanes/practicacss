@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.primera-sec{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+h1{
+    padding: 30px;
+}
+.iconos{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.escudo{
+    padding-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.estrella{
+    padding-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+a{
+    padding-left: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.img-div{
+    width: 500px;
+    height: 500px;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+h2{
+    padding: 50px;
+}
+
+.text{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+.group-cards{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 30px;
+}
+
+.card{
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(157, 183, 185);
+    margin: 15px;
+    
+}
+
+.icono-card{
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+}
+
+h3{
+    padding-bottom: 20px;
+}
+
+.sec2{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 30px;
+    padding-top: 30px;
+}
+
+.img-sec2{
+    width: 600px;
+    height: 600px;
+}
+
+.img2{
+    width: 600px;
+    height: 600px;
+}
+
+.text2{
+    padding: 20px;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+.icono-div{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.icono-sec2{
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+}
