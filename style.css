@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Catamaran', sans-serif;
 }
 
 nav{
@@ -8,6 +9,22 @@ nav{
     justify-content: space-around;
     align-items: center;
     padding: 15px;
+}
+
+nav h3{
+    color: rgb(12, 12, 189);
+}
+
+nav a{
+    color: rgb(78, 89, 100);
+}
+
+nav button{
+    padding: 7px;
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 5px;
 }
 
 .primera-sec{
@@ -18,7 +35,11 @@ nav{
 
 h1{
     padding: 30px;
+    color: rgb(5, 5, 102);
+    font-size: xx-large;
+    font-weight: bolder;
 }
+
 .iconos{
     display: flex;
     align-items: center;
@@ -55,12 +76,15 @@ img{
 
 h2{
     padding: 50px;
+    color: rgb(5, 5, 102);
+    font-size: xx-large;
 }
 
 .text{
     padding-top: 20px;
     padding-bottom: 30px;
     padding-left: 50px;
+    color: rgb(78, 89, 100);
 }
 
 .group-cards{
@@ -74,7 +98,7 @@ h2{
     height: 250px;
     padding: 20px;
     border-radius: 20px;
-    border: 2px solid rgb(157, 183, 185);
+    border: 2px solid rgb(222, 233, 241); 
     margin: 15px;
     
 }
@@ -87,6 +111,7 @@ h2{
 
 h3{
     padding-bottom: 20px;
+    color: rgb(5, 5, 102); 
 }
 
 .sec2{
@@ -110,12 +135,19 @@ h3{
     padding: 20px;
     margin-left: 50px;
     padding-left: 50px;
+    color: rgb(78, 89, 100);
+}
+
+p{
+    color: rgb(78, 89, 100);
 }
 
 .icono-div{
     display: flex;
     align-items: center;
     margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(222, 233, 241);
 }
 
 .icono-sec2{
@@ -154,7 +186,7 @@ h3{
 }
 
 .card-secc3{
-    border: 2px solid rgb(206, 220, 230);
+    border: 2px solid rgb(222, 233, 241);
     border-radius: 10px;
     margin: 15px;
     padding-top: 30px;
@@ -171,6 +203,7 @@ h3{
 .h3-secc3{
     display: flex;
     align-items: center;
+    color: rgb(12, 12, 189);
 }
 
 .boton-secc3{
@@ -186,6 +219,7 @@ footer .row{
 footer p{
     padding-left: 50px;
     padding-top: 30px;
+    color: rgb(78, 89, 100);
 }
 
 footer .row2{
@@ -196,10 +230,29 @@ footer .row2{
 footer h2{
     padding: 0;
     margin-left: 15px;
+    color: rgb(12, 12, 189);
+}
+
+footer h3{
+    color: rgb(5, 5, 102);
 }
 
 footer{
     padding-bottom: 10px;
+    background-color: rgb(198, 210, 233);
+    padding-top: 20px;
+}
+
+footer a{
+    color: rgb(78, 89, 100);
+}
+
+.rights{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: rgb(78, 89, 100);
 }
 
 
