@@ -123,3 +123,83 @@ h3{
     height: 20px;
     padding: 15px;
 }
+
+.secc3{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 30px;
+}
+
+.icono-secc3{
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    background-color: rgb(183, 243, 223);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.img-secc3{
+    width: 600px;
+    height: 600px;
+    margin: 30px;
+    padding-left: 70px;
+}
+
+.cardsgroup{
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 30px;
+}
+
+.card-secc3{
+    border: 2px solid rgb(206, 220, 230);
+    border-radius: 10px;
+    margin: 15px;
+    padding-top: 30px;
+    padding-left: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.h3-secc3{
+    display: flex;
+    align-items: center;
+}
+
+.boton-secc3{
+    border-radius: 5px;
+    padding: 3px;
+    background-color: rgb(183, 235, 218);
+}
+
+footer .row{
+    width: 100%;
+}
+
+footer p{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+footer .row2{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h2{
+    padding: 0;
+    margin-left: 15px;
+}
+
+footer{
+    padding-bottom: 10px;
+}
+
+
